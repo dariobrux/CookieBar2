@@ -64,7 +64,7 @@ public class CookieBar {
         }
     }
 
-    private void dismiss() {
+    public void dismiss() {
         final ViewGroup decorView = (ViewGroup) context.getWindow().getDecorView();
         final ViewGroup content = decorView.findViewById(android.R.id.content);
 
